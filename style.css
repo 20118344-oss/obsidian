@@ -384,7 +384,8 @@ footer {
   .nav-links a { font-size: 18px; }
  
   /* HERO */
-  .hero-bg { height: 50%; width: auto; left: 50%; transform: translateX(-50%); top: 0; }
+  .hero-bg { height: 50%; width: auto; left: 50%; transform: translateX(-50%) translateZ(0); -webkit-transform: translateX(-50%) translateZ(0); top: 0; }
+  .hero { transform: translateZ(0); -webkit-transform: translateZ(0); }
   .hero-content {
     top: auto; bottom: 35%;
     transform: none; padding: 0 20px;
