@@ -386,7 +386,7 @@ footer {
   /* HERO */
   .hero-bg { height: 50%; width: auto; left: 50%; transform: translateX(-50%); top: 0; }
   .hero-content {
-    top: auto; bottom: 16%;
+    top: auto; bottom: 40%;
     transform: none; padding: 0 20px;
     text-align: center;
     display: flex; flex-direction: column; align-items: center;
