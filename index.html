@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Black Obsidian — Tattoo Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400;1,6..96,700&family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">Black Obsidian</a>
+    <!-- To use logo image instead:
+    <a href="#hero" class="nav-logo"><img src="images/logo.png" alt="Black Obsidian"/></a> -->
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Portfolio</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#bookings">Bookings</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+
+    <!-- Your hand photo — add to images/hand.png -->
+    <img class="hero-bg" src="images/hand.png" alt="Tattoo machine"/>
+
+    <!-- YAYO jars — add to images/jar1.png etc -->
+    <img class="jar jar-1" src="images/jar1.png" alt="" onerror="this.style.display='none'"/>
+    <img class="jar jar-2" src="images/jar2.png" alt="" onerror="this.style.display='none'"/>
+    <img class="jar jar-3" src="images/jar3.png" alt="" onerror="this.style.display='none'"/>
+    <img class="jar jar-4" src="images/jar4.png" alt="" onerror="this.style.display='none'"/>
+    <img class="jar jar-5" src="images/jar5.png" alt="" onerror="this.style.display='none'"/>
+    <img class="jar jar-6" src="images/jar6.png" alt="" onerror="this.style.display='none'"/>
+
+    <div class="hero-content">
+      <h1 class="headline">
+        <div class="hl-row">
+          <span class="hl-serif">Your</span>
+          <span class="hl-sans">Dream</span>
+        </div>
+        <div class="hl-row">
+          <span class="hl-sans">Tatoo</span>
+          <span class="hl-serif">Awaits.</span>
+        </div>
+      </h1>
+      <div class="hero-cta">
+        <a href="#bookings" class="btn-purple">contact us</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <div class="stone-wrap">
+  <div class="stone-container">
+    <img class="stone" src="images/obsidian_no_bg.png" alt="Black Obsidian Stone" onerror="this.style.display='none'"/>
+    <div class="stone-label">
+      
+      <div class="stone-label-line"></div>
+    </div>
+  </div>
+</div>
+
+    <div class="about-card">
+      <span class="section-label">Our Story</span>
+      <h2 class="section-title">
+        <span class="serif">About </span>
+        <span class="sans">Us</span>
+      </h2>
+      <p class="about-text">
+        Founded in 2019, Black Obsidian is more than a tattoo studio.
+        It's a space where art becomes permanent. Every line, every shade —
+        crafted with intention. Specialized in blackwork, japanese and dark realism.
+        Every piece is one of a kind — just like the person wearing it.
+      </p>
+      <div class="about-stats">
+        <div>
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years</div>
+        </div>
+        <div>
+          <div class="stat-num">3</div>
+          <div class="stat-label">Artists</div>
+        </div>
+        <div>
+          <div class="stat-num">1k+</div>
+          <div class="stat-label">Pieces</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-wrap">
+      <div class="team-header">
+        <h3 class="team-title">
+          <span class="serif">Our </span>
+          <span class="sans">Team</span>
+        </h3>
+      </div>
+      <div class="team-grid">
+
+        <div class="artist">
+          <div class="artist-img-wrap">
+            <img src="images/artist1.jpg" alt="Jesse" onerror="this.style.opacity='0'"/>
+          </div>
+          <a class="artist-handle" href="https://instagram.com/jesse_farrelltattoos" target="_blank">@jesse_farrelltattoos</a>
+          <p class="artist-bio">Blackwork & dark realism specialist.</p>
+        </div>
+
+        <div class="artist">
+          <div class="artist-img-wrap">
+            <img src="images/artist2.jpg" alt="Jordann" onerror="this.style.opacity='0'"/>
+          </div>
+          <a class="artist-handle" href="https://instagram.com/jordann_tattoos" target="_blank">@jordann_tattoos</a>
+          <p class="artist-bio">Japanese style and fine line expert.</p>
+        </div>
+
+        <div class="artist">
+          <div class="artist-img-wrap">
+            <img src="images/artist3.jpg" alt="Alkinsella" onerror="this.style.opacity='0'"/>
+          </div>
+          <a class="artist-handle" href="https://instagram.com/alkinsellatattoos" target="_blank">@alkinsellatattoos</a>
+          <p class="artist-bio">Portrait and realism, passion for detail.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- OUR WORK -->
+  <section class="work" id="work">
+
+    <div class="work-header">
+      <h2 class="work-title">
+        <span class="serif">Our </span>
+        <span class="sans">Work</span>
+      </h2>
+    </div>
+
+    <div class="work-grid">
+      <div class="work-item">
+        <img src="images/portfolio1.png" alt="" onerror="this.outerHTML='<div class=work-placeholder>Blackwork</div>'"/>
+        <div class="work-overlay"><span class="work-tag">Blackwork</span></div>
+      </div>
+      <div class="work-item">
+        <img src="images/portfolio2.png" alt="" onerror="this.outerHTML='<div class=work-placeholder>Japanese</div>'"/>
+        <div class="work-overlay"><span class="work-tag">Japanese</span></div>
+      </div>
+      <div class="work-item">
+        <img src="images/portfolio3.png" alt="" onerror="this.outerHTML='<div class=work-placeholder>Realism</div>'"/>
+        <div class="work-overlay"><span class="work-tag">Realism</span></div>
+      </div>
+      <div class="work-item">
+        <img src="images/portfolio4.jpg" alt="" onerror="this.outerHTML='<div class=work-placeholder>Dark Art</div>'"/>
+        <div class="work-overlay"><span class="work-tag">Dark Art</span></div>
+      </div>
+      <div class="work-item">
+        <img src="images/portfolio5.jpg" alt="" onerror="this.outerHTML='<div class=work-placeholder>Fine Line</div>'"/>
+        <div class="work-overlay"><span class="work-tag">Fine Line</span></div>
+      </div>
+    </div>
+
+    <a class="work-instagram" href="https://instagram.com/black_obsidiantattoos" target="_blank">
+      <div>
+        <span class="work-instagram-label">See more on Instagram</span>
+        <span class="work-instagram-handle">@black_obsidiantattoos</span>
+      </div>
+      <span class="work-instagram-arrow">→</span>
+    </a>
+
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq-inner">
+
+      <div class="faq-header">
+        <span class="section-label">Got questions?</span>
+        <h2 class="section-title">
+          <span class="serif">Frequently </span>
+          <span class="sans">Asked</span>
+        </h2>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text">How do I book an appointment?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer"><p>Fill out the booking form on this page or contact us via Instagram. We'll get back to you within 24 hours to confirm your appointment and discuss your design.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text">How much does a tattoo cost?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer"><p>Pricing depends on the size, placement, and complexity of the design. Small pieces start from €80. We provide a full quote after your consultation. Custom designs are priced individually.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text">Do I need to prepare anything before my session?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer"><p>Eat a good meal before your appointment, stay hydrated, and wear comfortable clothing that gives easy access to the area being tattooed. Avoid alcohol for 24 hours prior.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text">What styles do you specialise in?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer"><p>Our artists specialise in blackwork, Japanese, dark realism, fine line and geometric tattoos. Each artist has their own style — check their portfolios on Instagram to find your match.</p></div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text">How do I take care of my tattoo after the session?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer"><p>We recommend using YAYO Tattoo Butter for aftercare. Keep the tattoo clean, moisturised, and out of direct sunlight for the first 2–3 weeks. Full aftercare instructions are provided after your session.</p></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOOKINGS -->
+  <section class="bookings" id="bookings">
+
+    <div class="bookings-left">
+      <span class="bookings-label">Ready?</span>
+      <h2 class="bookings-title">
+        <span class="serif">Book</span><br/>
+        <span class="sans">Your Spot</span>
+      </h2>
+      <p class="bookings-desc">
+        Fill out the form or contact us via Instagram and we'll be in touch within 24 hours to confirm your appointment and discuss your vision.
+      </p>
+      <div class="bookings-info">
+        <div class="info-row">
+          <!-- локация -->
+<div class="info-icon">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,0.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+    <circle cx="12" cy="9" r="2.5"/>
+  </svg>
+</div>
+          <span class="info-text">14 Henrietta street, Wexford, Ireland Y35 XD1K</span>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,0.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+    <circle cx="12" cy="12" r="4"/>
+    <circle cx="17.5" cy="6.5" r="1" fill="rgba(0,0,0,0.6)" stroke="none"/>
+  </svg>
+</div>
+          <span class="info-text">@black_obsidiantattoos</span>
+        </div>
+        <div class="info-row">
+          <!-- время -->
+<div class="info-icon">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,0.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <polyline points="12 6 12 12 16 14"/>
+  </svg>
+</div>
+          <span class="info-text">Mon–Sat · 10:00 – 19:00</span>
+        </div>
+      </div>
+    </div>
+
+    <form class="bookings-form" onsubmit="return false">
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" placeholder="John"/>
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" placeholder="Doe"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="john@example.com"/>
+      </div>
+      <div class="form-group">
+        <label>Preferred Artist</label>
+        <select>
+          <option value="">— Select artist —</option>
+          <option>@jesse_farrelltattoos</option>
+          <option>@jordann_tattoos</option>
+          <option>@alkinsellatattoos</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Tell us about your idea</label>
+        <textarea placeholder="Describe your tattoo idea, placement, size..."></textarea>
+      </div>
+      <button class="btn-submit" type="submit">Send Request</button>
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-brand">Black Obsidian</span>
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Portfolio</a>
+      <a href="#bookings">Book</a>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 Black Obsidian Tattoo Studio</span>
+      <span class="footer-credit">Created by <a href="#" target="_blank">lund.studio</a></span>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    function toggleFaq(el) {
+      const item = el.parentElement;
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      document.querySelectorAll('.faq-icon').forEach(i => i.textContent = '+');
+      if (!isOpen) {
+        item.classList.add('open');
+        el.querySelector('.faq-icon').textContent = '−';
+      }
+    }
+  </script>
+
+</body>
+</html>
