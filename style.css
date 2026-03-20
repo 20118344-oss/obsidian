@@ -386,7 +386,7 @@ footer {
   /* HERO */
   .hero-bg { height: 50%; width: auto; left: 50%; transform: translateX(-50%); top: 0; }
   .hero-content {
-    top: auto; bottom: 40%;
+    top: auto; bottom: 35%;
     transform: none; padding: 0 20px;
     text-align: center;
     display: flex; flex-direction: column; align-items: center;
@@ -394,7 +394,7 @@ footer {
   .hl-serif, .hl-sans { font-size: clamp(36px, 10vw, 60px); }
   .hl-row { gap: 10px; }
   .hl-row:last-child { padding-left: 0 !important; }
-  .jar-1 { left: 1%;  top: auto; bottom: 36%; width: 70px; }
+  .jar-1 { left: 5%;  top: auto; bottom: 60%; width: 70px; }
   .jar-2 { left: 1%;  top: auto; bottom: 20%; width: 70px; }
   .jar-3 { right: 1%; top: auto; bottom: 36%; width: 70px; }
   .jar-4 { right: 1%; top: auto; bottom: 20%; width: 70px; }
