@@ -9,18 +9,20 @@
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav id="nav">
-    <a href="#hero" class="nav-logo">Black Obsidian</a>
-    <!-- To use logo image instead:
-    <a href="#hero" class="nav-logo"><img src="images/logo.png" alt="Black Obsidian"/></a> -->
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#work">Portfolio</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#bookings">Bookings</a></li>
-    </ul>
-  </nav>
+ <nav id="nav">
+  <a href="#hero" class="nav-logo">Black Obsidian</a>
+  <button class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about" onclick="closeMenu()">About</a></li>
+    <li><a href="#work" onclick="closeMenu()">Portfolio</a></li>
+    <li><a href="#faq" onclick="closeMenu()">FAQ</a></li>
+    <li><a href="#bookings" onclick="closeMenu()">Bookings</a></li>
+  </ul>
+</nav>
 
   <!-- HERO -->
   <section class="hero" id="hero">
@@ -345,6 +347,16 @@
         el.querySelector('.faq-icon').textContent = '−';
       }
     }
+
+
+    function toggleMenu() {
+  document.getElementById('navToggle').classList.toggle('open');
+  document.getElementById('navLinks').classList.toggle('open');
+}
+function closeMenu() {
+  document.getElementById('navToggle').classList.remove('open');
+  document.getElementById('navLinks').classList.remove('open');
+}
   </script>
 
 </body>
